@@ -1,0 +1,12 @@
+//단위 바꾸기 m2 => 평
+#include <stdio.h>
+
+
+int main()
+{
+    int input;
+    scanf("%d", &input);
+    float result1 = input * 0.3;
+    printf("%0.1f", result1);
+    return 0;
+}
