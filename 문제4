@@ -1,0 +1,12 @@
+//BMI
+#include <stdio.h>
+
+int main()
+{
+    int height = 170; // 키 170cm
+    int weight = 55; // 몸무게 55kg
+    float height1 = ((float)height) / 100; // height와 100이 정수이기 때문에 float를 붙이지 않으면 정수값으로 출력됨 
+    float BMI = weight / (height1 * height1); 
+    printf("%.5f", BMI);
+    return 0;
+}
