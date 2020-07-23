@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    // 밥값을 계산해봅시다.
+    int price = 5000 * 3 * 365 * 15;
+    printf("엘리스가 지금까지 먹은 밥값은 %d원입니다.", price);
+    return 0;
+}
